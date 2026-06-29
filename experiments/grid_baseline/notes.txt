@@ -1,0 +1,9 @@
+Grid baseline study
+
+Store repeatable 3D grid examples here.
+
+Suggested outputs:
+- run_summary.json
+- path.csv
+- metrics.csv
+- config_snapshot.yaml
