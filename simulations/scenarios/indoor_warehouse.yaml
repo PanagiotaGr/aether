@@ -1,0 +1,21 @@
+scenario:
+  name: indoor_warehouse_virtual
+  seed: 13
+  bounds:
+    low: [0, 0, 0]
+    high: [25, 18, 5]
+  start: [1, 1, 1]
+  goal: [23, 16, 2]
+  obstacle_groups:
+    - name: shelf_row_1
+      type: box
+      min: [4, 3, 0]
+      max: [5, 15, 4]
+    - name: shelf_row_2
+      type: box
+      min: [9, 3, 0]
+      max: [10, 15, 4]
+    - name: shelf_row_3
+      type: box
+      min: [14, 3, 0]
+      max: [15, 15, 4]
