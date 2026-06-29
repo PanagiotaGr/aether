@@ -1,0 +1,10 @@
+validation:
+  workspace_min: [0.0, 0.0, 0.0]
+  workspace_max: [30.0, 30.0, 10.0]
+  minimum_clearance_m: 0.75
+  maximum_segment_length_m: 2.0
+  maximum_score: 0.8
+recovery:
+  low_energy_fraction: 0.25
+  critical_energy_fraction: 0.12
+  hold_position_timeout_s: 5.0
