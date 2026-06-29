@@ -1,0 +1,8 @@
+planner:
+  grid_resolution_m: 0.5
+  connectivity: 26
+  replan_period_s: 0.5
+  max_grid_expansions: 100000
+  smoothing:
+    enabled: false
+    max_curvature: 1.5
