@@ -1,0 +1,13 @@
+scenario:
+  name: minimal_grid_navigation
+  seed: 7
+  bounds:
+    low: [0, 0, 0]
+    high: [12, 12, 4]
+  start: [1, 1, 1]
+  goal: [10, 10, 2]
+  blocked_cells:
+    - [5, 5, 1]
+    - [5, 5, 2]
+    - [5, 6, 1]
+    - [6, 5, 1]
