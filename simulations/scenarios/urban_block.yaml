@@ -1,0 +1,21 @@
+scenario:
+  name: urban_block_virtual
+  seed: 11
+  bounds:
+    low: [0, 0, 0]
+    high: [40, 40, 12]
+  start: [2, 2, 2]
+  goal: [35, 35, 6]
+  obstacle_groups:
+    - name: building_a
+      type: box
+      min: [8, 8, 0]
+      max: [14, 14, 10]
+    - name: building_b
+      type: box
+      min: [20, 5, 0]
+      max: [27, 15, 8]
+    - name: tower
+      type: box
+      min: [18, 22, 0]
+      max: [23, 28, 12]
